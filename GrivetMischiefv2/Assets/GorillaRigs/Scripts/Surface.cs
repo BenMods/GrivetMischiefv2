@@ -1,0 +1,9 @@
+﻿namespace UPLLocomotion
+{
+    using UnityEngine;
+
+    public class Surface : MonoBehaviour
+    {
+        public float slipPercentage;
+    }
+}

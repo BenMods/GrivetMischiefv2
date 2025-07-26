@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - HandTag
+  - Hitsound
+  - Bullet
+  - FingerCollider
   layers:
   - Default
   - TransparentFX
@@ -11,10 +15,10 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
+  - Climb
+  - Grab
+  - UPL/Hands
+  - UPL/Body
   - 
   - 
   - 
