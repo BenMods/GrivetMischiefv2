@@ -1,0 +1,1063 @@
+2025-7-25
+Rendering UV GBuffer for SampleScene_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SampleScene_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SampleScene_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SampleScene_LMA3 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SampleScene_LMA4 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SampleScene_LMA5 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\ebemo\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\ebemo\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA3.lz4" 2 0 3 0
+Running ftraceRTX fixpos12 "C:\Users\ebemo\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA4.lz4" 2 0 4 0
+Running ftraceRTX fixpos12 "C:\Users\ebemo\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\ebemo\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA5.lz4" 2 0 5 0
+Running ftraceRTX fixpos12 "C:\Users\ebemo\AppData\Local\Temp\frender" "uvpos_SampleScene_LM0.lz4" 2 0 0 0
+Running ftraceRTX ao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA1_ao" 8 16 1
+Running ftraceRTX ao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA3_ao" 8 16 3
+Running ftraceRTX ao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA4_ao" 8 16 4
+Running ftraceRTX ao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA2_ao" 8 16 2
+Running ftraceRTX ao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA5_ao" 8 16 5
+Running ftraceRTX ao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LM0_ao" 8 16 0
+Running ftraceRTX sunsh "C:\Users\ebemo\AppData\Local\Temp\frender" "light_1734521457_1" 1924 0 1 direct0.bin
+Running ftraceRTX addmul "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX sunsh "C:\Users\ebemo\AppData\Local\Temp\frender" "light_1734521457_3" 1924 0 3 direct0.bin
+Running ftraceRTX addmul "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX sunsh "C:\Users\ebemo\AppData\Local\Temp\frender" "light_1734521457_4" 1924 0 4 direct0.bin
+Running ftraceRTX addmul "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA4" 4 0 4 comp_4.bin
+Running ftraceRTX sunsh "C:\Users\ebemo\AppData\Local\Temp\frender" "light_1734521457_2" 1924 0 2 direct0.bin
+Running ftraceRTX addmul "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX sunsh "C:\Users\ebemo\AppData\Local\Temp\frender" "light_1734521457_5" 1924 0 5 direct0.bin
+Running ftraceRTX addmul "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA5" 4 0 5 comp_5.bin
+Running ftraceRTX sunsh "C:\Users\ebemo\AppData\Local\Temp\frender" "light_1734521457_0" 1924 0 0 direct0.bin
+Running ftraceRTX addmul "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA1_diffuse" 4 16 1 "gi_SampleScene_LMA10.bin" "SampleScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA3_diffuse" 4 16 3 "gi_SampleScene_LMA30.bin" "SampleScene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA4_diffuse" 4 16 4 "gi_SampleScene_LMA40.bin" "SampleScene_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA2_diffuse" 4 16 2 "gi_SampleScene_LMA20.bin" "SampleScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA5_diffuse" 4 16 5 "gi_SampleScene_LMA50.bin" "SampleScene_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "gi_SampleScene_LM00.bin" "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA1_diffuse" 4 16 1 "gi_SampleScene_LMA11.bin" "SampleScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA3_diffuse" 4 16 3 "gi_SampleScene_LMA31.bin" "SampleScene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA4_diffuse" 4 16 4 "gi_SampleScene_LMA41.bin" "SampleScene_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA2_diffuse" 4 16 2 "gi_SampleScene_LMA21.bin" "SampleScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA5_diffuse" 4 16 5 "gi_SampleScene_LMA51.bin" "SampleScene_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "gi_SampleScene_LM01.bin" "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA1_final" 1924 16 1 "gi_SampleScene_LMA12.bin" "SampleScene_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA3_final" 1924 16 3 "gi_SampleScene_LMA32.bin" "SampleScene_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA4_final" 1924 16 4 "gi_SampleScene_LMA42.bin" "SampleScene_LMA4_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA2_final" 1924 16 2 "gi_SampleScene_LMA22.bin" "SampleScene_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA5_final" 1924 16 5 "gi_SampleScene_LMA52.bin" "SampleScene_LMA5_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LM0_final" 1924 16 0 "gi_SampleScene_LM02.bin" "SampleScene_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addsh "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA1_final_" 4 0 1 shcomp_1.bin
+Running ftraceRTX addao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA1_final_L0.lz4" 4 0 1 addao_1.bin
+Running denoiserOIDN s "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA1_final_L0.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1x.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1y.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1z.lz4" 2048 0
+Running seamfixer "C:\Users\ebemo\AppData\Local\Temp\frender" "1" "SampleScene_LMA1_final_L0.lz4" "SampleScene_LMA1_final_L1x.lz4" "SampleScene_LMA1_final_L1y.lz4" "SampleScene_LMA1_final_L1z.lz4"
+Running ftraceRTX addsh "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA3_final_" 4 0 3 shcomp_3.bin
+Running ftraceRTX addao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA3_final_L0.lz4" 4 0 3 addao_3.bin
+Running denoiserOIDN s "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA3_final_L0.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA3_final_L1x.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA3_final_L1y.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA3_final_L1z.lz4" 2048 0
+Running seamfixer "C:\Users\ebemo\AppData\Local\Temp\frender" "3" "SampleScene_LMA3_final_L0.lz4" "SampleScene_LMA3_final_L1x.lz4" "SampleScene_LMA3_final_L1y.lz4" "SampleScene_LMA3_final_L1z.lz4"
+Running ftraceRTX addsh "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA4_final_" 4 0 4 shcomp_4.bin
+Running ftraceRTX addao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA4_final_L0.lz4" 4 0 4 addao_4.bin
+Running denoiserOIDN s "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA4_final_L0.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA4_final_L1x.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA4_final_L1y.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA4_final_L1z.lz4" 2048 0
+Running seamfixer "C:\Users\ebemo\AppData\Local\Temp\frender" "4" "SampleScene_LMA4_final_L0.lz4" "SampleScene_LMA4_final_L1x.lz4" "SampleScene_LMA4_final_L1y.lz4" "SampleScene_LMA4_final_L1z.lz4"
+Running ftraceRTX addsh "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA2_final_" 4 0 2 shcomp_2.bin
+Running ftraceRTX addao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA2_final_L0.lz4" 4 0 2 addao_2.bin
+Running denoiserOIDN s "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA2_final_L0.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA2_final_L1x.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA2_final_L1y.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA2_final_L1z.lz4" 2048 0
+Running seamfixer "C:\Users\ebemo\AppData\Local\Temp\frender" "2" "SampleScene_LMA2_final_L0.lz4" "SampleScene_LMA2_final_L1x.lz4" "SampleScene_LMA2_final_L1y.lz4" "SampleScene_LMA2_final_L1z.lz4"
+Running ftraceRTX addsh "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA5_final_" 4 0 5 shcomp_5.bin
+Running ftraceRTX addao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA5_final_L0.lz4" 4 0 5 addao_5.bin
+Running denoiserOIDN s "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA5_final_L0.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA5_final_L1x.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA5_final_L1y.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA5_final_L1z.lz4" 256 0
+Running seamfixer "C:\Users\ebemo\AppData\Local\Temp\frender" "5" "SampleScene_LMA5_final_L0.lz4" "SampleScene_LMA5_final_L1x.lz4" "SampleScene_LMA5_final_L1y.lz4" "SampleScene_LMA5_final_L1z.lz4"
+Running ftraceRTX addsh "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LM0_final_" 4 0 0 shcomp_0.bin
+Running ftraceRTX addao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LM0_final_L0.lz4" 4 0 0 addao_0.bin
+Running denoiserOIDN s "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LM0_final_L0.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LM0_final_L1x.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LM0_final_L1y.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LM0_final_L1z.lz4" 2048 0
+Running seamfixer "C:\Users\ebemo\AppData\Local\Temp\frender" "0" "SampleScene_LM0_final_L0.lz4" "SampleScene_LM0_final_L1x.lz4" "SampleScene_LM0_final_L1y.lz4" "SampleScene_LM0_final_L1z.lz4"
+Running halffloat2hdr "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA1_final_L0.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA1_L0.hdr" 1024
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1x.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA1_L1x.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1y.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA1_L1y.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1z.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA1_L1z.tga" 
+Running halffloat2hdr "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA3_final_L0.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA3_L0.hdr" 1024
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA3_final_L1x.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA3_L1x.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA3_final_L1y.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA3_L1y.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA3_final_L1z.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA3_L1z.tga" 
+Running halffloat2hdr "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA4_final_L0.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA4_L0.hdr" 1024
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA4_final_L1x.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA4_L1x.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA4_final_L1y.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA4_L1y.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA4_final_L1z.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA4_L1z.tga" 
+Running halffloat2hdr "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA2_final_L0.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA2_L0.hdr" 1024
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA2_final_L1x.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA2_L1x.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA2_final_L1y.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA2_L1y.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA2_final_L1z.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA2_L1z.tga" 
+Running halffloat2hdr "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA5_final_L0.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA5_L0.hdr" 1024
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA5_final_L1x.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA5_L1x.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA5_final_L1y.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA5_L1y.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA5_final_L1z.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA5_L1z.tga" 
+Running halffloat2hdr "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LM0_final_L0.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LM0_L0.hdr" 1024
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LM0_final_L1x.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LM0_L1x.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LM0_final_L1y.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LM0_L1y.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LM0_final_L1z.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LM0_L1z.tga" 
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for SampleScene_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SampleScene_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SampleScene_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SampleScene_LMA3 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SampleScene_LMA4 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SampleScene_LMA5 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SampleScene_LMA6 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SampleScene_LMA7 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SampleScene_LMA8 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\ebemo\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA5.lz4" 2 0 5 0
+Running ftraceRTX fixpos12 "C:\Users\ebemo\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA7.lz4" 2 0 7 0
+Running ftraceRTX fixpos12 "C:\Users\ebemo\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA8.lz4" 2 0 8 0
+Running ftraceRTX fixpos12 "C:\Users\ebemo\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA6.lz4" 2 0 6 0
+Running ftraceRTX fixpos12 "C:\Users\ebemo\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\ebemo\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA3.lz4" 2 0 3 0
+Running ftraceRTX fixpos12 "C:\Users\ebemo\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA4.lz4" 2 0 4 0
+Running ftraceRTX fixpos12 "C:\Users\ebemo\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\ebemo\AppData\Local\Temp\frender" "uvpos_SampleScene_LM0.lz4" 2 0 0 0
+Running ftraceRTX ao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA5_ao" 8 16 5
+Running ftraceRTX ao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA7_ao" 8 16 7
+Running ftraceRTX ao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA8_ao" 8 16 8
+Running ftraceRTX ao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA6_ao" 8 16 6
+Running ftraceRTX ao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA1_ao" 8 16 1
+Running ftraceRTX ao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA3_ao" 8 16 3
+Running ftraceRTX ao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA4_ao" 8 16 4
+Running ftraceRTX ao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA2_ao" 8 16 2
+Running ftraceRTX ao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LM0_ao" 8 16 0
+Running ftraceRTX sunsh "C:\Users\ebemo\AppData\Local\Temp\frender" "light_1734521457_5" 1924 0 5 direct0.bin
+Running ftraceRTX addmul "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA5" 4 0 5 comp_5.bin
+Running ftraceRTX sunsh "C:\Users\ebemo\AppData\Local\Temp\frender" "light_1734521457_7" 1924 0 7 direct0.bin
+Running ftraceRTX addmul "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA7" 4 0 7 comp_7.bin
+Running ftraceRTX sunsh "C:\Users\ebemo\AppData\Local\Temp\frender" "light_1734521457_8" 1924 0 8 direct0.bin
+Running ftraceRTX addmul "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA8" 4 0 8 comp_8.bin
+Running ftraceRTX sunsh "C:\Users\ebemo\AppData\Local\Temp\frender" "light_1734521457_6" 1924 0 6 direct0.bin
+Running ftraceRTX addmul "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA6" 4 0 6 comp_6.bin
+Running ftraceRTX sunsh "C:\Users\ebemo\AppData\Local\Temp\frender" "light_1734521457_1" 1924 0 1 direct0.bin
+Running ftraceRTX addmul "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX sunsh "C:\Users\ebemo\AppData\Local\Temp\frender" "light_1734521457_3" 1924 0 3 direct0.bin
+Running ftraceRTX addmul "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX sunsh "C:\Users\ebemo\AppData\Local\Temp\frender" "light_1734521457_4" 1924 0 4 direct0.bin
+Running ftraceRTX addmul "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA4" 4 0 4 comp_4.bin
+Running ftraceRTX sunsh "C:\Users\ebemo\AppData\Local\Temp\frender" "light_1734521457_2" 1924 0 2 direct0.bin
+Running ftraceRTX addmul "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX sunsh "C:\Users\ebemo\AppData\Local\Temp\frender" "light_1734521457_0" 1924 0 0 direct0.bin
+Running ftraceRTX addmul "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA5_diffuse" 4 16 5 "gi_SampleScene_LMA50.bin" "SampleScene_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA7_diffuse" 4 16 7 "gi_SampleScene_LMA70.bin" "SampleScene_LMA7_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA8_diffuse" 4 16 8 "gi_SampleScene_LMA80.bin" "SampleScene_LMA8_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA6_diffuse" 4 16 6 "gi_SampleScene_LMA60.bin" "SampleScene_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA1_diffuse" 4 16 1 "gi_SampleScene_LMA10.bin" "SampleScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA3_diffuse" 4 16 3 "gi_SampleScene_LMA30.bin" "SampleScene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA4_diffuse" 4 16 4 "gi_SampleScene_LMA40.bin" "SampleScene_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA2_diffuse" 4 16 2 "gi_SampleScene_LMA20.bin" "SampleScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "gi_SampleScene_LM00.bin" "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA5_diffuse" 4 16 5 "gi_SampleScene_LMA51.bin" "SampleScene_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA7_diffuse" 4 16 7 "gi_SampleScene_LMA71.bin" "SampleScene_LMA7_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA8_diffuse" 4 16 8 "gi_SampleScene_LMA81.bin" "SampleScene_LMA8_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA6_diffuse" 4 16 6 "gi_SampleScene_LMA61.bin" "SampleScene_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA1_diffuse" 4 16 1 "gi_SampleScene_LMA11.bin" "SampleScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA3_diffuse" 4 16 3 "gi_SampleScene_LMA31.bin" "SampleScene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA4_diffuse" 4 16 4 "gi_SampleScene_LMA41.bin" "SampleScene_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA2_diffuse" 4 16 2 "gi_SampleScene_LMA21.bin" "SampleScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "gi_SampleScene_LM01.bin" "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA5_final" 1924 16 5 "gi_SampleScene_LMA52.bin" "SampleScene_LMA5_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA7_final" 1924 16 7 "gi_SampleScene_LMA72.bin" "SampleScene_LMA7_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA8_final" 1924 16 8 "gi_SampleScene_LMA82.bin" "SampleScene_LMA8_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA6_final" 1924 16 6 "gi_SampleScene_LMA62.bin" "SampleScene_LMA6_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA1_final" 1924 16 1 "gi_SampleScene_LMA12.bin" "SampleScene_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA3_final" 1924 16 3 "gi_SampleScene_LMA32.bin" "SampleScene_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA4_final" 1924 16 4 "gi_SampleScene_LMA42.bin" "SampleScene_LMA4_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA2_final" 1924 16 2 "gi_SampleScene_LMA22.bin" "SampleScene_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for SampleScene_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SampleScene_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SampleScene_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SampleScene_LMA3 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SampleScene_LMA4 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SampleScene_LMA5 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SampleScene_LMA6 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SampleScene_LMA7 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SampleScene_LMA8 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\ebemo\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\ebemo\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA3.lz4" 2 0 3 0
+Running ftraceRTX fixpos12 "C:\Users\ebemo\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA7.lz4" 2 0 7 0
+Running ftraceRTX fixpos12 "C:\Users\ebemo\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA4.lz4" 2 0 4 0
+Running ftraceRTX fixpos12 "C:\Users\ebemo\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\ebemo\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA8.lz4" 2 0 8 0
+Running ftraceRTX fixpos12 "C:\Users\ebemo\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA6.lz4" 2 0 6 0
+Running ftraceRTX fixpos12 "C:\Users\ebemo\AppData\Local\Temp\frender" "uvpos_SampleScene_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\ebemo\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA5.lz4" 2 0 5 0
+Running ftraceRTX ao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA1_ao" 8 16 1
+Running ftraceRTX ao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA3_ao" 8 16 3
+Running ftraceRTX ao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA7_ao" 8 16 7
+Running ftraceRTX ao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA4_ao" 8 16 4
+Running ftraceRTX ao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA2_ao" 8 16 2
+Running ftraceRTX ao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA8_ao" 8 16 8
+Running ftraceRTX ao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA6_ao" 8 16 6
+Running ftraceRTX ao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LM0_ao" 8 16 0
+Running ftraceRTX ao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA5_ao" 8 16 5
+Running ftraceRTX sunsh "C:\Users\ebemo\AppData\Local\Temp\frender" "light_1734521457_1" 1924 0 1 direct0.bin
+Running ftraceRTX addmul "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX sunsh "C:\Users\ebemo\AppData\Local\Temp\frender" "light_1734521457_3" 1924 0 3 direct0.bin
+Running ftraceRTX addmul "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX sunsh "C:\Users\ebemo\AppData\Local\Temp\frender" "light_1734521457_7" 1924 0 7 direct0.bin
+Running ftraceRTX addmul "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA7" 4 0 7 comp_7.bin
+Running ftraceRTX sunsh "C:\Users\ebemo\AppData\Local\Temp\frender" "light_1734521457_4" 1924 0 4 direct0.bin
+Running ftraceRTX addmul "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA4" 4 0 4 comp_4.bin
+Running ftraceRTX sunsh "C:\Users\ebemo\AppData\Local\Temp\frender" "light_1734521457_2" 1924 0 2 direct0.bin
+Running ftraceRTX addmul "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX sunsh "C:\Users\ebemo\AppData\Local\Temp\frender" "light_1734521457_8" 1924 0 8 direct0.bin
+Running ftraceRTX addmul "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA8" 4 0 8 comp_8.bin
+Running ftraceRTX sunsh "C:\Users\ebemo\AppData\Local\Temp\frender" "light_1734521457_6" 1924 0 6 direct0.bin
+Running ftraceRTX addmul "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA6" 4 0 6 comp_6.bin
+Running ftraceRTX sunsh "C:\Users\ebemo\AppData\Local\Temp\frender" "light_1734521457_0" 1924 0 0 direct0.bin
+Running ftraceRTX addmul "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX sunsh "C:\Users\ebemo\AppData\Local\Temp\frender" "light_1734521457_5" 1924 0 5 direct0.bin
+Running ftraceRTX addmul "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA5" 4 0 5 comp_5.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA1_diffuse" 4 16 1 "gi_SampleScene_LMA10.bin" "SampleScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA3_diffuse" 4 16 3 "gi_SampleScene_LMA30.bin" "SampleScene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA7_diffuse" 4 16 7 "gi_SampleScene_LMA70.bin" "SampleScene_LMA7_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA4_diffuse" 4 16 4 "gi_SampleScene_LMA40.bin" "SampleScene_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA2_diffuse" 4 16 2 "gi_SampleScene_LMA20.bin" "SampleScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA8_diffuse" 4 16 8 "gi_SampleScene_LMA80.bin" "SampleScene_LMA8_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA6_diffuse" 4 16 6 "gi_SampleScene_LMA60.bin" "SampleScene_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "gi_SampleScene_LM00.bin" "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA5_diffuse" 4 16 5 "gi_SampleScene_LMA50.bin" "SampleScene_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA1_diffuse" 4 16 1 "gi_SampleScene_LMA11.bin" "SampleScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA3_diffuse" 4 16 3 "gi_SampleScene_LMA31.bin" "SampleScene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA7_diffuse" 4 16 7 "gi_SampleScene_LMA71.bin" "SampleScene_LMA7_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA4_diffuse" 4 16 4 "gi_SampleScene_LMA41.bin" "SampleScene_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA2_diffuse" 4 16 2 "gi_SampleScene_LMA21.bin" "SampleScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA8_diffuse" 4 16 8 "gi_SampleScene_LMA81.bin" "SampleScene_LMA8_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA6_diffuse" 4 16 6 "gi_SampleScene_LMA61.bin" "SampleScene_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "gi_SampleScene_LM01.bin" "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA5_diffuse" 4 16 5 "gi_SampleScene_LMA51.bin" "SampleScene_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA1_final" 1924 16 1 "gi_SampleScene_LMA12.bin" "SampleScene_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA3_final" 1924 16 3 "gi_SampleScene_LMA32.bin" "SampleScene_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA7_final" 1924 16 7 "gi_SampleScene_LMA72.bin" "SampleScene_LMA7_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA4_final" 1924 16 4 "gi_SampleScene_LMA42.bin" "SampleScene_LMA4_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA2_final" 1924 16 2 "gi_SampleScene_LMA22.bin" "SampleScene_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA8_final" 1924 16 8 "gi_SampleScene_LMA82.bin" "SampleScene_LMA8_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA6_final" 1924 16 6 "gi_SampleScene_LMA62.bin" "SampleScene_LMA6_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LM0_final" 1924 16 0 "gi_SampleScene_LM02.bin" "SampleScene_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA5_final" 1924 16 5 "gi_SampleScene_LMA52.bin" "SampleScene_LMA5_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addsh "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA1_final_" 4 0 1 shcomp_1.bin
+Running ftraceRTX addao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA1_final_L0.lz4" 4 0 1 addao_1.bin
+Running denoiserOIDN s "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA1_final_L0.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1x.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1y.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1z.lz4" 2048 0
+Running seamfixer "C:\Users\ebemo\AppData\Local\Temp\frender" "1" "SampleScene_LMA1_final_L0.lz4" "SampleScene_LMA1_final_L1x.lz4" "SampleScene_LMA1_final_L1y.lz4" "SampleScene_LMA1_final_L1z.lz4"
+Running ftraceRTX addsh "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA3_final_" 4 0 3 shcomp_3.bin
+Running ftraceRTX addao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA3_final_L0.lz4" 4 0 3 addao_3.bin
+Running denoiserOIDN s "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA3_final_L0.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA3_final_L1x.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA3_final_L1y.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA3_final_L1z.lz4" 2048 0
+Running seamfixer "C:\Users\ebemo\AppData\Local\Temp\frender" "3" "SampleScene_LMA3_final_L0.lz4" "SampleScene_LMA3_final_L1x.lz4" "SampleScene_LMA3_final_L1y.lz4" "SampleScene_LMA3_final_L1z.lz4"
+Running ftraceRTX addsh "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA7_final_" 4 0 7 shcomp_7.bin
+Running ftraceRTX addao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA7_final_L0.lz4" 4 0 7 addao_7.bin
+Running denoiserOIDN s "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA7_final_L0.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA7_final_L1x.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA7_final_L1y.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA7_final_L1z.lz4" 1024 0
+Running seamfixer "C:\Users\ebemo\AppData\Local\Temp\frender" "7" "SampleScene_LMA7_final_L0.lz4" "SampleScene_LMA7_final_L1x.lz4" "SampleScene_LMA7_final_L1y.lz4" "SampleScene_LMA7_final_L1z.lz4"
+Running ftraceRTX addsh "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA4_final_" 4 0 4 shcomp_4.bin
+Running ftraceRTX addao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA4_final_L0.lz4" 4 0 4 addao_4.bin
+Running denoiserOIDN s "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA4_final_L0.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA4_final_L1x.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA4_final_L1y.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA4_final_L1z.lz4" 2048 0
+Running seamfixer "C:\Users\ebemo\AppData\Local\Temp\frender" "4" "SampleScene_LMA4_final_L0.lz4" "SampleScene_LMA4_final_L1x.lz4" "SampleScene_LMA4_final_L1y.lz4" "SampleScene_LMA4_final_L1z.lz4"
+Running ftraceRTX addsh "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA2_final_" 4 0 2 shcomp_2.bin
+Running ftraceRTX addao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA2_final_L0.lz4" 4 0 2 addao_2.bin
+Running denoiserOIDN s "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA2_final_L0.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA2_final_L1x.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA2_final_L1y.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA2_final_L1z.lz4" 2048 0
+Running seamfixer "C:\Users\ebemo\AppData\Local\Temp\frender" "2" "SampleScene_LMA2_final_L0.lz4" "SampleScene_LMA2_final_L1x.lz4" "SampleScene_LMA2_final_L1y.lz4" "SampleScene_LMA2_final_L1z.lz4"
+Running ftraceRTX addsh "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA8_final_" 4 0 8 shcomp_8.bin
+Running ftraceRTX addao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA8_final_L0.lz4" 4 0 8 addao_8.bin
+Running denoiserOIDN s "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA8_final_L0.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA8_final_L1x.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA8_final_L1y.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA8_final_L1z.lz4" 512 0
+Running seamfixer "C:\Users\ebemo\AppData\Local\Temp\frender" "8" "SampleScene_LMA8_final_L0.lz4" "SampleScene_LMA8_final_L1x.lz4" "SampleScene_LMA8_final_L1y.lz4" "SampleScene_LMA8_final_L1z.lz4"
+Running ftraceRTX addsh "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA6_final_" 4 0 6 shcomp_6.bin
+Running ftraceRTX addao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA6_final_L0.lz4" 4 0 6 addao_6.bin
+Running denoiserOIDN s "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA6_final_L0.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA6_final_L1x.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA6_final_L1y.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA6_final_L1z.lz4" 1024 0
+Running seamfixer "C:\Users\ebemo\AppData\Local\Temp\frender" "6" "SampleScene_LMA6_final_L0.lz4" "SampleScene_LMA6_final_L1x.lz4" "SampleScene_LMA6_final_L1y.lz4" "SampleScene_LMA6_final_L1z.lz4"
+Running ftraceRTX addsh "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LM0_final_" 4 0 0 shcomp_0.bin
+Running ftraceRTX addao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LM0_final_L0.lz4" 4 0 0 addao_0.bin
+Running denoiserOIDN s "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LM0_final_L0.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LM0_final_L1x.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LM0_final_L1y.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LM0_final_L1z.lz4" 2048 0
+Running seamfixer "C:\Users\ebemo\AppData\Local\Temp\frender" "0" "SampleScene_LM0_final_L0.lz4" "SampleScene_LM0_final_L1x.lz4" "SampleScene_LM0_final_L1y.lz4" "SampleScene_LM0_final_L1z.lz4"
+Running ftraceRTX addsh "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA5_final_" 4 0 5 shcomp_5.bin
+Running ftraceRTX addao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA5_final_L0.lz4" 4 0 5 addao_5.bin
+Running denoiserOIDN s "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA5_final_L0.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA5_final_L1x.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA5_final_L1y.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA5_final_L1z.lz4" 2048 0
+Running seamfixer "C:\Users\ebemo\AppData\Local\Temp\frender" "5" "SampleScene_LMA5_final_L0.lz4" "SampleScene_LMA5_final_L1x.lz4" "SampleScene_LMA5_final_L1y.lz4" "SampleScene_LMA5_final_L1z.lz4"
+Running halffloat2hdr "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA1_final_L0.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA1_L0.hdr" 1024
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1x.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA1_L1x.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1y.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA1_L1y.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1z.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA1_L1z.tga" 
+Running halffloat2hdr "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA3_final_L0.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA3_L0.hdr" 1024
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA3_final_L1x.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA3_L1x.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA3_final_L1y.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA3_L1y.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA3_final_L1z.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA3_L1z.tga" 
+Running halffloat2hdr "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA7_final_L0.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA7_L0.hdr" 1024
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA7_final_L1x.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA7_L1x.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA7_final_L1y.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA7_L1y.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA7_final_L1z.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA7_L1z.tga" 
+Running halffloat2hdr "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA4_final_L0.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA4_L0.hdr" 1024
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA4_final_L1x.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA4_L1x.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA4_final_L1y.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA4_L1y.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA4_final_L1z.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA4_L1z.tga" 
+Running halffloat2hdr "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA2_final_L0.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA2_L0.hdr" 1024
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA2_final_L1x.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA2_L1x.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA2_final_L1y.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA2_L1y.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA2_final_L1z.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA2_L1z.tga" 
+Running halffloat2hdr "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA8_final_L0.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA8_L0.hdr" 1024
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA8_final_L1x.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA8_L1x.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA8_final_L1y.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA8_L1y.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA8_final_L1z.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA8_L1z.tga" 
+Running halffloat2hdr "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA6_final_L0.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA6_L0.hdr" 1024
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA6_final_L1x.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA6_L1x.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA6_final_L1y.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA6_L1y.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA6_final_L1z.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA6_L1z.tga" 
+Running halffloat2hdr "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LM0_final_L0.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LM0_L0.hdr" 1024
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LM0_final_L1x.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LM0_L1x.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LM0_final_L1y.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LM0_L1y.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LM0_final_L1z.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LM0_L1z.tga" 
+Running halffloat2hdr "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA5_final_L0.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA5_L0.hdr" 1024
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA5_final_L1x.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA5_L1x.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA5_final_L1y.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA5_L1y.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA5_final_L1z.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA5_L1z.tga" 
+Total cache size 267780588
+Total cache size after purge 267780588
+Total cache size 267780588
+Total cache size after purge 267780588
+Total cache size 267780588
+Total cache size after purge 267780588
+abort_threads: Failed aborting id: 00000000000080D0, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000004EB4, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 00000000000080D0, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000004EB4, mono_thread_manage will ignore it
+
+2025-7-25
+Rendering UV GBuffer for SampleScene_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SampleScene_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SampleScene_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SampleScene_LMA3 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SampleScene_LMA4 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SampleScene_LMA5 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SampleScene_LMA6 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SampleScene_LMA7 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SampleScene_LMA8 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SampleScene_LMA9 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\ebemo\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\ebemo\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\ebemo\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA4.lz4" 2 0 4 0
+Running ftraceRTX fixpos12 "C:\Users\ebemo\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA8.lz4" 2 0 8 0
+Running ftraceRTX fixpos12 "C:\Users\ebemo\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA5.lz4" 2 0 5 0
+Running ftraceRTX fixpos12 "C:\Users\ebemo\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA7.lz4" 2 0 7 0
+Running ftraceRTX fixpos12 "C:\Users\ebemo\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA3.lz4" 2 0 3 0
+Running ftraceRTX fixpos12 "C:\Users\ebemo\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA9.lz4" 2 0 9 0
+Running ftraceRTX fixpos12 "C:\Users\ebemo\AppData\Local\Temp\frender" "uvpos_SampleScene_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\ebemo\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA6.lz4" 2 0 6 0
+Running ftraceRTX ao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA1_ao" 8 16 1
+Running ftraceRTX ao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA2_ao" 8 16 2
+Running ftraceRTX ao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA4_ao" 8 16 4
+Running ftraceRTX ao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA8_ao" 8 16 8
+Running ftraceRTX ao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA5_ao" 8 16 5
+Running ftraceRTX ao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA7_ao" 8 16 7
+Running ftraceRTX ao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA3_ao" 8 16 3
+Running ftraceRTX ao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA9_ao" 8 16 9
+Running ftraceRTX ao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LM0_ao" 8 16 0
+Running ftraceRTX ao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA6_ao" 8 16 6
+Running ftraceRTX sunsh "C:\Users\ebemo\AppData\Local\Temp\frender" "light_1734521457_1" 1924 0 1 direct0.bin
+Running ftraceRTX addmul "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX sunsh "C:\Users\ebemo\AppData\Local\Temp\frender" "light_1734521457_2" 1924 0 2 direct0.bin
+Running ftraceRTX addmul "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX sunsh "C:\Users\ebemo\AppData\Local\Temp\frender" "light_1734521457_4" 1924 0 4 direct0.bin
+Running ftraceRTX addmul "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA4" 4 0 4 comp_4.bin
+Running ftraceRTX sunsh "C:\Users\ebemo\AppData\Local\Temp\frender" "light_1734521457_8" 1924 0 8 direct0.bin
+Running ftraceRTX addmul "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA8" 4 0 8 comp_8.bin
+Running ftraceRTX sunsh "C:\Users\ebemo\AppData\Local\Temp\frender" "light_1734521457_5" 1924 0 5 direct0.bin
+Running ftraceRTX addmul "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA5" 4 0 5 comp_5.bin
+Running ftraceRTX sunsh "C:\Users\ebemo\AppData\Local\Temp\frender" "light_1734521457_7" 1924 0 7 direct0.bin
+Running ftraceRTX addmul "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA7" 4 0 7 comp_7.bin
+Running ftraceRTX sunsh "C:\Users\ebemo\AppData\Local\Temp\frender" "light_1734521457_3" 1924 0 3 direct0.bin
+Running ftraceRTX addmul "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX sunsh "C:\Users\ebemo\AppData\Local\Temp\frender" "light_1734521457_9" 1924 0 9 direct0.bin
+Running ftraceRTX addmul "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA9" 4 0 9 comp_9.bin
+Running ftraceRTX sunsh "C:\Users\ebemo\AppData\Local\Temp\frender" "light_1734521457_0" 1924 0 0 direct0.bin
+Running ftraceRTX addmul "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX sunsh "C:\Users\ebemo\AppData\Local\Temp\frender" "light_1734521457_6" 1924 0 6 direct0.bin
+Running ftraceRTX addmul "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA6" 4 0 6 comp_6.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA1_diffuse" 4 16 1 "gi_SampleScene_LMA10.bin" "SampleScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA2_diffuse" 4 16 2 "gi_SampleScene_LMA20.bin" "SampleScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA4_diffuse" 4 16 4 "gi_SampleScene_LMA40.bin" "SampleScene_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA8_diffuse" 4 16 8 "gi_SampleScene_LMA80.bin" "SampleScene_LMA8_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA5_diffuse" 4 16 5 "gi_SampleScene_LMA50.bin" "SampleScene_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA7_diffuse" 4 16 7 "gi_SampleScene_LMA70.bin" "SampleScene_LMA7_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA3_diffuse" 4 16 3 "gi_SampleScene_LMA30.bin" "SampleScene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA9_diffuse" 4 16 9 "gi_SampleScene_LMA90.bin" "SampleScene_LMA9_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "gi_SampleScene_LM00.bin" "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA6_diffuse" 4 16 6 "gi_SampleScene_LMA60.bin" "SampleScene_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA1_diffuse" 4 16 1 "gi_SampleScene_LMA11.bin" "SampleScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA2_diffuse" 4 16 2 "gi_SampleScene_LMA21.bin" "SampleScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA4_diffuse" 4 16 4 "gi_SampleScene_LMA41.bin" "SampleScene_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA8_diffuse" 4 16 8 "gi_SampleScene_LMA81.bin" "SampleScene_LMA8_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA5_diffuse" 4 16 5 "gi_SampleScene_LMA51.bin" "SampleScene_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA7_diffuse" 4 16 7 "gi_SampleScene_LMA71.bin" "SampleScene_LMA7_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA3_diffuse" 4 16 3 "gi_SampleScene_LMA31.bin" "SampleScene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA9_diffuse" 4 16 9 "gi_SampleScene_LMA91.bin" "SampleScene_LMA9_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "gi_SampleScene_LM01.bin" "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA6_diffuse" 4 16 6 "gi_SampleScene_LMA61.bin" "SampleScene_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA1_final" 1924 16 1 "gi_SampleScene_LMA12.bin" "SampleScene_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA2_final" 1924 16 2 "gi_SampleScene_LMA22.bin" "SampleScene_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA4_final" 1924 16 4 "gi_SampleScene_LMA42.bin" "SampleScene_LMA4_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA8_final" 1924 16 8 "gi_SampleScene_LMA82.bin" "SampleScene_LMA8_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA5_final" 1924 16 5 "gi_SampleScene_LMA52.bin" "SampleScene_LMA5_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA7_final" 1924 16 7 "gi_SampleScene_LMA72.bin" "SampleScene_LMA7_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA3_final" 1924 16 3 "gi_SampleScene_LMA32.bin" "SampleScene_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for SampleScene_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SampleScene_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SampleScene_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SampleScene_LMA3 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SampleScene_LMA4 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SampleScene_LMA5 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SampleScene_LMA6 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SampleScene_LMA7 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SampleScene_LMA8 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SampleScene_LMA9 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\ebemo\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\ebemo\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA4.lz4" 2 0 4 0
+Running ftraceRTX fixpos12 "C:\Users\ebemo\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA8.lz4" 2 0 8 0
+Running ftraceRTX fixpos12 "C:\Users\ebemo\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA5.lz4" 2 0 5 0
+Running ftraceRTX fixpos12 "C:\Users\ebemo\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA7.lz4" 2 0 7 0
+Running ftraceRTX fixpos12 "C:\Users\ebemo\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\ebemo\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA3.lz4" 2 0 3 0
+Running ftraceRTX fixpos12 "C:\Users\ebemo\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA9.lz4" 2 0 9 0
+Running ftraceRTX fixpos12 "C:\Users\ebemo\AppData\Local\Temp\frender" "uvpos_SampleScene_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\ebemo\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA6.lz4" 2 0 6 0
+Running ftraceRTX ao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA2_ao" 8 16 2
+Running ftraceRTX ao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA4_ao" 8 16 4
+Running ftraceRTX ao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA8_ao" 8 16 8
+Running ftraceRTX ao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA5_ao" 8 16 5
+Running ftraceRTX ao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA7_ao" 8 16 7
+Running ftraceRTX ao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA1_ao" 8 16 1
+Running ftraceRTX ao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA3_ao" 8 16 3
+Running ftraceRTX ao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA9_ao" 8 16 9
+Running ftraceRTX ao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LM0_ao" 8 16 0
+Running ftraceRTX ao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA6_ao" 8 16 6
+Running ftraceRTX sunsh "C:\Users\ebemo\AppData\Local\Temp\frender" "light_1734521457_2" 1924 0 2 direct0.bin
+Running ftraceRTX addmul "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX sunsh "C:\Users\ebemo\AppData\Local\Temp\frender" "light_1734521457_4" 1924 0 4 direct0.bin
+Running ftraceRTX addmul "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA4" 4 0 4 comp_4.bin
+Running ftraceRTX sunsh "C:\Users\ebemo\AppData\Local\Temp\frender" "light_1734521457_8" 1924 0 8 direct0.bin
+Running ftraceRTX addmul "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA8" 4 0 8 comp_8.bin
+Running ftraceRTX sunsh "C:\Users\ebemo\AppData\Local\Temp\frender" "light_1734521457_5" 1924 0 5 direct0.bin
+Running ftraceRTX addmul "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA5" 4 0 5 comp_5.bin
+Running ftraceRTX sunsh "C:\Users\ebemo\AppData\Local\Temp\frender" "light_1734521457_7" 1924 0 7 direct0.bin
+Running ftraceRTX addmul "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA7" 4 0 7 comp_7.bin
+Running ftraceRTX sunsh "C:\Users\ebemo\AppData\Local\Temp\frender" "light_1734521457_1" 1924 0 1 direct0.bin
+Running ftraceRTX addmul "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX sunsh "C:\Users\ebemo\AppData\Local\Temp\frender" "light_1734521457_3" 1924 0 3 direct0.bin
+Running ftraceRTX addmul "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX sunsh "C:\Users\ebemo\AppData\Local\Temp\frender" "light_1734521457_9" 1924 0 9 direct0.bin
+Running ftraceRTX addmul "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA9" 4 0 9 comp_9.bin
+Running ftraceRTX sunsh "C:\Users\ebemo\AppData\Local\Temp\frender" "light_1734521457_0" 1924 0 0 direct0.bin
+Running ftraceRTX addmul "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX sunsh "C:\Users\ebemo\AppData\Local\Temp\frender" "light_1734521457_6" 1924 0 6 direct0.bin
+Running ftraceRTX addmul "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA6" 4 0 6 comp_6.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA2_diffuse" 4 16 2 "gi_SampleScene_LMA20.bin" "SampleScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA4_diffuse" 4 16 4 "gi_SampleScene_LMA40.bin" "SampleScene_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA8_diffuse" 4 16 8 "gi_SampleScene_LMA80.bin" "SampleScene_LMA8_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA5_diffuse" 4 16 5 "gi_SampleScene_LMA50.bin" "SampleScene_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA7_diffuse" 4 16 7 "gi_SampleScene_LMA70.bin" "SampleScene_LMA7_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA1_diffuse" 4 16 1 "gi_SampleScene_LMA10.bin" "SampleScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA3_diffuse" 4 16 3 "gi_SampleScene_LMA30.bin" "SampleScene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA9_diffuse" 4 16 9 "gi_SampleScene_LMA90.bin" "SampleScene_LMA9_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "gi_SampleScene_LM00.bin" "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA6_diffuse" 4 16 6 "gi_SampleScene_LMA60.bin" "SampleScene_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA2_diffuse" 4 16 2 "gi_SampleScene_LMA21.bin" "SampleScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA4_diffuse" 4 16 4 "gi_SampleScene_LMA41.bin" "SampleScene_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA8_diffuse" 4 16 8 "gi_SampleScene_LMA81.bin" "SampleScene_LMA8_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA5_diffuse" 4 16 5 "gi_SampleScene_LMA51.bin" "SampleScene_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA7_diffuse" 4 16 7 "gi_SampleScene_LMA71.bin" "SampleScene_LMA7_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA1_diffuse" 4 16 1 "gi_SampleScene_LMA11.bin" "SampleScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA3_diffuse" 4 16 3 "gi_SampleScene_LMA31.bin" "SampleScene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA9_diffuse" 4 16 9 "gi_SampleScene_LMA91.bin" "SampleScene_LMA9_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "gi_SampleScene_LM01.bin" "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA6_diffuse" 4 16 6 "gi_SampleScene_LMA61.bin" "SampleScene_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA2_final" 1924 16 2 "gi_SampleScene_LMA22.bin" "SampleScene_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA4_final" 1924 16 4 "gi_SampleScene_LMA42.bin" "SampleScene_LMA4_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA8_final" 1924 16 8 "gi_SampleScene_LMA82.bin" "SampleScene_LMA8_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA5_final" 1924 16 5 "gi_SampleScene_LMA52.bin" "SampleScene_LMA5_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA7_final" 1924 16 7 "gi_SampleScene_LMA72.bin" "SampleScene_LMA7_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA1_final" 1924 16 1 "gi_SampleScene_LMA12.bin" "SampleScene_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA3_final" 1924 16 3 "gi_SampleScene_LMA32.bin" "SampleScene_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA9_final" 1924 16 9 "gi_SampleScene_LMA92.bin" "SampleScene_LMA9_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LM0_final" 1924 16 0 "gi_SampleScene_LM02.bin" "SampleScene_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA6_final" 1924 16 6 "gi_SampleScene_LMA62.bin" "SampleScene_LMA6_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addsh "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA2_final_" 4 0 2 shcomp_2.bin
+Running ftraceRTX addao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA2_final_L0.lz4" 4 0 2 addao_2.bin
+Running denoiserOIDN s "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA2_final_L0.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA2_final_L1x.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA2_final_L1y.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA2_final_L1z.lz4" 2048 0
+Running seamfixer "C:\Users\ebemo\AppData\Local\Temp\frender" "2" "SampleScene_LMA2_final_L0.lz4" "SampleScene_LMA2_final_L1x.lz4" "SampleScene_LMA2_final_L1y.lz4" "SampleScene_LMA2_final_L1z.lz4"
+Running ftraceRTX addsh "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA4_final_" 4 0 4 shcomp_4.bin
+Running ftraceRTX addao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA4_final_L0.lz4" 4 0 4 addao_4.bin
+Running denoiserOIDN s "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA4_final_L0.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA4_final_L1x.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA4_final_L1y.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA4_final_L1z.lz4" 2048 0
+Running seamfixer "C:\Users\ebemo\AppData\Local\Temp\frender" "4" "SampleScene_LMA4_final_L0.lz4" "SampleScene_LMA4_final_L1x.lz4" "SampleScene_LMA4_final_L1y.lz4" "SampleScene_LMA4_final_L1z.lz4"
+Running ftraceRTX addsh "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA8_final_" 4 0 8 shcomp_8.bin
+Running ftraceRTX addao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA8_final_L0.lz4" 4 0 8 addao_8.bin
+Running denoiserOIDN s "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA8_final_L0.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA8_final_L1x.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA8_final_L1y.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA8_final_L1z.lz4" 1024 0
+Running seamfixer "C:\Users\ebemo\AppData\Local\Temp\frender" "8" "SampleScene_LMA8_final_L0.lz4" "SampleScene_LMA8_final_L1x.lz4" "SampleScene_LMA8_final_L1y.lz4" "SampleScene_LMA8_final_L1z.lz4"
+Running ftraceRTX addsh "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA5_final_" 4 0 5 shcomp_5.bin
+Running ftraceRTX addao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA5_final_L0.lz4" 4 0 5 addao_5.bin
+Running denoiserOIDN s "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA5_final_L0.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA5_final_L1x.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA5_final_L1y.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA5_final_L1z.lz4" 2048 0
+Running seamfixer "C:\Users\ebemo\AppData\Local\Temp\frender" "5" "SampleScene_LMA5_final_L0.lz4" "SampleScene_LMA5_final_L1x.lz4" "SampleScene_LMA5_final_L1y.lz4" "SampleScene_LMA5_final_L1z.lz4"
+Running ftraceRTX addsh "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA7_final_" 4 0 7 shcomp_7.bin
+Running ftraceRTX addao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA7_final_L0.lz4" 4 0 7 addao_7.bin
+Running denoiserOIDN s "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA7_final_L0.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA7_final_L1x.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA7_final_L1y.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA7_final_L1z.lz4" 1024 0
+Running seamfixer "C:\Users\ebemo\AppData\Local\Temp\frender" "7" "SampleScene_LMA7_final_L0.lz4" "SampleScene_LMA7_final_L1x.lz4" "SampleScene_LMA7_final_L1y.lz4" "SampleScene_LMA7_final_L1z.lz4"
+Running ftraceRTX addsh "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA1_final_" 4 0 1 shcomp_1.bin
+Running ftraceRTX addao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA1_final_L0.lz4" 4 0 1 addao_1.bin
+Running denoiserOIDN s "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA1_final_L0.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1x.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1y.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1z.lz4" 2048 0
+Running seamfixer "C:\Users\ebemo\AppData\Local\Temp\frender" "1" "SampleScene_LMA1_final_L0.lz4" "SampleScene_LMA1_final_L1x.lz4" "SampleScene_LMA1_final_L1y.lz4" "SampleScene_LMA1_final_L1z.lz4"
+Running ftraceRTX addsh "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA3_final_" 4 0 3 shcomp_3.bin
+Running ftraceRTX addao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA3_final_L0.lz4" 4 0 3 addao_3.bin
+Running denoiserOIDN s "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA3_final_L0.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA3_final_L1x.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA3_final_L1y.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA3_final_L1z.lz4" 2048 0
+Running seamfixer "C:\Users\ebemo\AppData\Local\Temp\frender" "3" "SampleScene_LMA3_final_L0.lz4" "SampleScene_LMA3_final_L1x.lz4" "SampleScene_LMA3_final_L1y.lz4" "SampleScene_LMA3_final_L1z.lz4"
+Running ftraceRTX addsh "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA9_final_" 4 0 9 shcomp_9.bin
+Running ftraceRTX addao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA9_final_L0.lz4" 4 0 9 addao_9.bin
+Running denoiserOIDN s "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA9_final_L0.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA9_final_L1x.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA9_final_L1y.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA9_final_L1z.lz4" 512 0
+Running seamfixer "C:\Users\ebemo\AppData\Local\Temp\frender" "9" "SampleScene_LMA9_final_L0.lz4" "SampleScene_LMA9_final_L1x.lz4" "SampleScene_LMA9_final_L1y.lz4" "SampleScene_LMA9_final_L1z.lz4"
+Running ftraceRTX addsh "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LM0_final_" 4 0 0 shcomp_0.bin
+Running ftraceRTX addao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LM0_final_L0.lz4" 4 0 0 addao_0.bin
+Running denoiserOIDN s "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LM0_final_L0.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LM0_final_L1x.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LM0_final_L1y.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LM0_final_L1z.lz4" 2048 0
+Running seamfixer "C:\Users\ebemo\AppData\Local\Temp\frender" "0" "SampleScene_LM0_final_L0.lz4" "SampleScene_LM0_final_L1x.lz4" "SampleScene_LM0_final_L1y.lz4" "SampleScene_LM0_final_L1z.lz4"
+Running ftraceRTX addsh "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA6_final_" 4 0 6 shcomp_6.bin
+Running ftraceRTX addao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA6_final_L0.lz4" 4 0 6 addao_6.bin
+Running denoiserOIDN s "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA6_final_L0.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA6_final_L1x.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA6_final_L1y.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA6_final_L1z.lz4" 2048 0
+Running seamfixer "C:\Users\ebemo\AppData\Local\Temp\frender" "6" "SampleScene_LMA6_final_L0.lz4" "SampleScene_LMA6_final_L1x.lz4" "SampleScene_LMA6_final_L1y.lz4" "SampleScene_LMA6_final_L1z.lz4"
+Running halffloat2hdr "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA2_final_L0.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA2_L0.hdr" 1024
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA2_final_L1x.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA2_L1x.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA2_final_L1y.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA2_L1y.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA2_final_L1z.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA2_L1z.tga" 
+Running halffloat2hdr "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA4_final_L0.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA4_L0.hdr" 1024
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA4_final_L1x.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA4_L1x.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA4_final_L1y.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA4_L1y.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA4_final_L1z.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA4_L1z.tga" 
+Running halffloat2hdr "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA8_final_L0.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA8_L0.hdr" 1024
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA8_final_L1x.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA8_L1x.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA8_final_L1y.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA8_L1y.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA8_final_L1z.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA8_L1z.tga" 
+Running halffloat2hdr "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA5_final_L0.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA5_L0.hdr" 1024
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA5_final_L1x.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA5_L1x.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA5_final_L1y.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA5_L1y.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA5_final_L1z.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA5_L1z.tga" 
+Running halffloat2hdr "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA7_final_L0.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA7_L0.hdr" 1024
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA7_final_L1x.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA7_L1x.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA7_final_L1y.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA7_L1y.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA7_final_L1z.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA7_L1z.tga" 
+Running halffloat2hdr "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA1_final_L0.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA1_L0.hdr" 1024
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1x.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA1_L1x.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1y.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA1_L1y.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1z.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA1_L1z.tga" 
+Running halffloat2hdr "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA3_final_L0.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA3_L0.hdr" 1024
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA3_final_L1x.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA3_L1x.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA3_final_L1y.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA3_L1y.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA3_final_L1z.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA3_L1z.tga" 
+Running halffloat2hdr "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA9_final_L0.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA9_L0.hdr" 1024
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA9_final_L1x.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA9_L1x.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA9_final_L1y.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA9_L1y.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA9_final_L1z.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA9_L1z.tga" 
+Running halffloat2hdr "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LM0_final_L0.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LM0_L0.hdr" 1024
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LM0_final_L1x.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LM0_L1x.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LM0_final_L1y.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LM0_L1y.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LM0_final_L1z.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LM0_L1z.tga" 
+Running halffloat2hdr "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA6_final_L0.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA6_L0.hdr" 1024
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA6_final_L1x.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA6_L1x.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA6_final_L1y.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA6_L1y.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA6_final_L1z.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA6_L1z.tga" 
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for SampleScene_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SampleScene_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SampleScene_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SampleScene_LMA3 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SampleScene_LMA4 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SampleScene_LMA5 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SampleScene_LMA6 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SampleScene_LMA7 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SampleScene_LMA8 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SampleScene_LMA9 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SampleScene_LMA10 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\ebemo\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA7.lz4" 2 0 7 0
+Running ftraceRTX fixpos12 "C:\Users\ebemo\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\ebemo\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA4.lz4" 2 0 4 0
+Running ftraceRTX fixpos12 "C:\Users\ebemo\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA9.lz4" 2 0 9 0
+Running ftraceRTX fixpos12 "C:\Users\ebemo\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA5.lz4" 2 0 5 0
+Running ftraceRTX fixpos12 "C:\Users\ebemo\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA8.lz4" 2 0 8 0
+Running ftraceRTX fixpos12 "C:\Users\ebemo\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\ebemo\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA3.lz4" 2 0 3 0
+Running ftraceRTX fixpos12 "C:\Users\ebemo\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA10.lz4" 2 0 10 0
+Running ftraceRTX fixpos12 "C:\Users\ebemo\AppData\Local\Temp\frender" "uvpos_SampleScene_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\ebemo\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA6.lz4" 2 0 6 0
+Running ftraceRTX ao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA7_ao" 8 16 7
+Running ftraceRTX ao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA2_ao" 8 16 2
+Running ftraceRTX ao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA4_ao" 8 16 4
+Running ftraceRTX ao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA9_ao" 8 16 9
+Running ftraceRTX ao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA5_ao" 8 16 5
+Running ftraceRTX ao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA8_ao" 8 16 8
+Running ftraceRTX ao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA1_ao" 8 16 1
+Running ftraceRTX ao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA3_ao" 8 16 3
+Running ftraceRTX ao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA10_ao" 8 16 10
+Running ftraceRTX ao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LM0_ao" 8 16 0
+Running ftraceRTX ao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA6_ao" 8 16 6
+Running ftraceRTX sunsh "C:\Users\ebemo\AppData\Local\Temp\frender" "light_1734521457_7" 1924 0 7 direct0.bin
+Running ftraceRTX addmul "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA7" 4 0 7 comp_7.bin
+Running ftraceRTX sunsh "C:\Users\ebemo\AppData\Local\Temp\frender" "light_1734521457_2" 1924 0 2 direct0.bin
+Running ftraceRTX addmul "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX sunsh "C:\Users\ebemo\AppData\Local\Temp\frender" "light_1734521457_4" 1924 0 4 direct0.bin
+Running ftraceRTX addmul "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA4" 4 0 4 comp_4.bin
+Running ftraceRTX sunsh "C:\Users\ebemo\AppData\Local\Temp\frender" "light_1734521457_9" 1924 0 9 direct0.bin
+Running ftraceRTX addmul "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA9" 4 0 9 comp_9.bin
+Running ftraceRTX sunsh "C:\Users\ebemo\AppData\Local\Temp\frender" "light_1734521457_5" 1924 0 5 direct0.bin
+Running ftraceRTX addmul "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA5" 4 0 5 comp_5.bin
+Running ftraceRTX sunsh "C:\Users\ebemo\AppData\Local\Temp\frender" "light_1734521457_8" 1924 0 8 direct0.bin
+Running ftraceRTX addmul "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA8" 4 0 8 comp_8.bin
+Running ftraceRTX sunsh "C:\Users\ebemo\AppData\Local\Temp\frender" "light_1734521457_1" 1924 0 1 direct0.bin
+Running ftraceRTX addmul "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX sunsh "C:\Users\ebemo\AppData\Local\Temp\frender" "light_1734521457_3" 1924 0 3 direct0.bin
+Running ftraceRTX addmul "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX sunsh "C:\Users\ebemo\AppData\Local\Temp\frender" "light_1734521457_10" 1924 0 10 direct0.bin
+Running ftraceRTX addmul "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA10" 4 0 10 comp_10.bin
+Running ftraceRTX sunsh "C:\Users\ebemo\AppData\Local\Temp\frender" "light_1734521457_0" 1924 0 0 direct0.bin
+Running ftraceRTX addmul "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX sunsh "C:\Users\ebemo\AppData\Local\Temp\frender" "light_1734521457_6" 1924 0 6 direct0.bin
+Running ftraceRTX addmul "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA6" 4 0 6 comp_6.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA7_diffuse" 4 16 7 "gi_SampleScene_LMA70.bin" "SampleScene_LMA7_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA2_diffuse" 4 16 2 "gi_SampleScene_LMA20.bin" "SampleScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA4_diffuse" 4 16 4 "gi_SampleScene_LMA40.bin" "SampleScene_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA9_diffuse" 4 16 9 "gi_SampleScene_LMA90.bin" "SampleScene_LMA9_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA5_diffuse" 4 16 5 "gi_SampleScene_LMA50.bin" "SampleScene_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA8_diffuse" 4 16 8 "gi_SampleScene_LMA80.bin" "SampleScene_LMA8_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA1_diffuse" 4 16 1 "gi_SampleScene_LMA10.bin" "SampleScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA3_diffuse" 4 16 3 "gi_SampleScene_LMA30.bin" "SampleScene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA10_diffuse" 4 16 10 "gi_SampleScene_LMA100.bin" "SampleScene_LMA10_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "gi_SampleScene_LM00.bin" "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA6_diffuse" 4 16 6 "gi_SampleScene_LMA60.bin" "SampleScene_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA7_diffuse" 4 16 7 "gi_SampleScene_LMA71.bin" "SampleScene_LMA7_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA2_diffuse" 4 16 2 "gi_SampleScene_LMA21.bin" "SampleScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA4_diffuse" 4 16 4 "gi_SampleScene_LMA41.bin" "SampleScene_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA9_diffuse" 4 16 9 "gi_SampleScene_LMA91.bin" "SampleScene_LMA9_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA5_diffuse" 4 16 5 "gi_SampleScene_LMA51.bin" "SampleScene_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA8_diffuse" 4 16 8 "gi_SampleScene_LMA81.bin" "SampleScene_LMA8_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA1_diffuse" 4 16 1 "gi_SampleScene_LMA11.bin" "SampleScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA3_diffuse" 4 16 3 "gi_SampleScene_LMA31.bin" "SampleScene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA10_diffuse" 4 16 10 "gi_SampleScene_LMA101.bin" "SampleScene_LMA10_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "gi_SampleScene_LM01.bin" "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA6_diffuse" 4 16 6 "gi_SampleScene_LMA61.bin" "SampleScene_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA7_final" 1924 16 7 "gi_SampleScene_LMA72.bin" "SampleScene_LMA7_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA2_final" 1924 16 2 "gi_SampleScene_LMA22.bin" "SampleScene_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA4_final" 1924 16 4 "gi_SampleScene_LMA42.bin" "SampleScene_LMA4_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA9_final" 1924 16 9 "gi_SampleScene_LMA92.bin" "SampleScene_LMA9_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA5_final" 1924 16 5 "gi_SampleScene_LMA52.bin" "SampleScene_LMA5_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA8_final" 1924 16 8 "gi_SampleScene_LMA82.bin" "SampleScene_LMA8_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA1_final" 1924 16 1 "gi_SampleScene_LMA12.bin" "SampleScene_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA3_final" 1924 16 3 "gi_SampleScene_LMA32.bin" "SampleScene_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA10_final" 1924 16 10 "gi_SampleScene_LMA102.bin" "SampleScene_LMA10_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LM0_final" 1924 16 0 "gi_SampleScene_LM02.bin" "SampleScene_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA6_final" 1924 16 6 "gi_SampleScene_LMA62.bin" "SampleScene_LMA6_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addsh "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA7_final_" 4 0 7 shcomp_7.bin
+Running ftraceRTX addao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA7_final_L0.lz4" 4 0 7 addao_7.bin
+Running denoiserOIDN s "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA7_final_L0.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA7_final_L1x.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA7_final_L1y.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA7_final_L1z.lz4" 2048 0
+Running seamfixer "C:\Users\ebemo\AppData\Local\Temp\frender" "7" "SampleScene_LMA7_final_L0.lz4" "SampleScene_LMA7_final_L1x.lz4" "SampleScene_LMA7_final_L1y.lz4" "SampleScene_LMA7_final_L1z.lz4"
+Running ftraceRTX addsh "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA2_final_" 4 0 2 shcomp_2.bin
+Running ftraceRTX addao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA2_final_L0.lz4" 4 0 2 addao_2.bin
+Running denoiserOIDN s "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA2_final_L0.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA2_final_L1x.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA2_final_L1y.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA2_final_L1z.lz4" 2048 0
+Running seamfixer "C:\Users\ebemo\AppData\Local\Temp\frender" "2" "SampleScene_LMA2_final_L0.lz4" "SampleScene_LMA2_final_L1x.lz4" "SampleScene_LMA2_final_L1y.lz4" "SampleScene_LMA2_final_L1z.lz4"
+Running ftraceRTX addsh "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA4_final_" 4 0 4 shcomp_4.bin
+Running ftraceRTX addao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA4_final_L0.lz4" 4 0 4 addao_4.bin
+Running denoiserOIDN s "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA4_final_L0.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA4_final_L1x.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA4_final_L1y.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA4_final_L1z.lz4" 2048 0
+Running seamfixer "C:\Users\ebemo\AppData\Local\Temp\frender" "4" "SampleScene_LMA4_final_L0.lz4" "SampleScene_LMA4_final_L1x.lz4" "SampleScene_LMA4_final_L1y.lz4" "SampleScene_LMA4_final_L1z.lz4"
+Running ftraceRTX addsh "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA9_final_" 4 0 9 shcomp_9.bin
+Running ftraceRTX addao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA9_final_L0.lz4" 4 0 9 addao_9.bin
+Running denoiserOIDN s "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA9_final_L0.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA9_final_L1x.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA9_final_L1y.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA9_final_L1z.lz4" 1024 0
+Running seamfixer "C:\Users\ebemo\AppData\Local\Temp\frender" "9" "SampleScene_LMA9_final_L0.lz4" "SampleScene_LMA9_final_L1x.lz4" "SampleScene_LMA9_final_L1y.lz4" "SampleScene_LMA9_final_L1z.lz4"
+Running ftraceRTX addsh "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA5_final_" 4 0 5 shcomp_5.bin
+Running ftraceRTX addao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA5_final_L0.lz4" 4 0 5 addao_5.bin
+Running denoiserOIDN s "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA5_final_L0.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA5_final_L1x.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA5_final_L1y.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA5_final_L1z.lz4" 2048 0
+Running seamfixer "C:\Users\ebemo\AppData\Local\Temp\frender" "5" "SampleScene_LMA5_final_L0.lz4" "SampleScene_LMA5_final_L1x.lz4" "SampleScene_LMA5_final_L1y.lz4" "SampleScene_LMA5_final_L1z.lz4"
+Running ftraceRTX addsh "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA8_final_" 4 0 8 shcomp_8.bin
+Running ftraceRTX addao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA8_final_L0.lz4" 4 0 8 addao_8.bin
+Running denoiserOIDN s "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA8_final_L0.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA8_final_L1x.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA8_final_L1y.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA8_final_L1z.lz4" 1024 0
+Running seamfixer "C:\Users\ebemo\AppData\Local\Temp\frender" "8" "SampleScene_LMA8_final_L0.lz4" "SampleScene_LMA8_final_L1x.lz4" "SampleScene_LMA8_final_L1y.lz4" "SampleScene_LMA8_final_L1z.lz4"
+Running ftraceRTX addsh "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA1_final_" 4 0 1 shcomp_1.bin
+Running ftraceRTX addao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA1_final_L0.lz4" 4 0 1 addao_1.bin
+Running denoiserOIDN s "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA1_final_L0.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1x.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1y.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1z.lz4" 2048 0
+Running seamfixer "C:\Users\ebemo\AppData\Local\Temp\frender" "1" "SampleScene_LMA1_final_L0.lz4" "SampleScene_LMA1_final_L1x.lz4" "SampleScene_LMA1_final_L1y.lz4" "SampleScene_LMA1_final_L1z.lz4"
+Running ftraceRTX addsh "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA3_final_" 4 0 3 shcomp_3.bin
+Running ftraceRTX addao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA3_final_L0.lz4" 4 0 3 addao_3.bin
+Running denoiserOIDN s "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA3_final_L0.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA3_final_L1x.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA3_final_L1y.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA3_final_L1z.lz4" 2048 0
+Running seamfixer "C:\Users\ebemo\AppData\Local\Temp\frender" "3" "SampleScene_LMA3_final_L0.lz4" "SampleScene_LMA3_final_L1x.lz4" "SampleScene_LMA3_final_L1y.lz4" "SampleScene_LMA3_final_L1z.lz4"
+Running ftraceRTX addsh "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA10_final_" 4 0 10 shcomp_10.bin
+Running ftraceRTX addao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA10_final_L0.lz4" 4 0 10 addao_10.bin
+Running denoiserOIDN s "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA10_final_L0.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA10_final_L1x.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA10_final_L1y.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA10_final_L1z.lz4" 512 0
+Running seamfixer "C:\Users\ebemo\AppData\Local\Temp\frender" "10" "SampleScene_LMA10_final_L0.lz4" "SampleScene_LMA10_final_L1x.lz4" "SampleScene_LMA10_final_L1y.lz4" "SampleScene_LMA10_final_L1z.lz4"
+Running ftraceRTX addsh "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LM0_final_" 4 0 0 shcomp_0.bin
+Running ftraceRTX addao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LM0_final_L0.lz4" 4 0 0 addao_0.bin
+Running denoiserOIDN s "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LM0_final_L0.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LM0_final_L1x.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LM0_final_L1y.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LM0_final_L1z.lz4" 2048 0
+Running seamfixer "C:\Users\ebemo\AppData\Local\Temp\frender" "0" "SampleScene_LM0_final_L0.lz4" "SampleScene_LM0_final_L1x.lz4" "SampleScene_LM0_final_L1y.lz4" "SampleScene_LM0_final_L1z.lz4"
+Running ftraceRTX addsh "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA6_final_" 4 0 6 shcomp_6.bin
+Running ftraceRTX addao "C:\Users\ebemo\AppData\Local\Temp\frender" "SampleScene_LMA6_final_L0.lz4" 4 0 6 addao_6.bin
+Running denoiserOIDN s "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA6_final_L0.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA6_final_L1x.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA6_final_L1y.lz4" "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA6_final_L1z.lz4" 2048 0
+Running seamfixer "C:\Users\ebemo\AppData\Local\Temp\frender" "6" "SampleScene_LMA6_final_L0.lz4" "SampleScene_LMA6_final_L1x.lz4" "SampleScene_LMA6_final_L1y.lz4" "SampleScene_LMA6_final_L1z.lz4"
+Running halffloat2hdr "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA7_final_L0.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA7_L0.hdr" 1024
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA7_final_L1x.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA7_L1x.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA7_final_L1y.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA7_L1y.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA7_final_L1z.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA7_L1z.tga" 
+Running halffloat2hdr "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA2_final_L0.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA2_L0.hdr" 1024
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA2_final_L1x.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA2_L1x.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA2_final_L1y.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA2_L1y.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA2_final_L1z.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA2_L1z.tga" 
+Running halffloat2hdr "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA4_final_L0.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA4_L0.hdr" 1024
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA4_final_L1x.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA4_L1x.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA4_final_L1y.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA4_L1y.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA4_final_L1z.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA4_L1z.tga" 
+Running halffloat2hdr "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA9_final_L0.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA9_L0.hdr" 1024
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA9_final_L1x.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA9_L1x.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA9_final_L1y.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA9_L1y.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA9_final_L1z.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA9_L1z.tga" 
+Running halffloat2hdr "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA5_final_L0.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA5_L0.hdr" 1024
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA5_final_L1x.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA5_L1x.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA5_final_L1y.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA5_L1y.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA5_final_L1z.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA5_L1z.tga" 
+Running halffloat2hdr "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA8_final_L0.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA8_L0.hdr" 1024
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA8_final_L1x.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA8_L1x.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA8_final_L1y.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA8_L1y.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA8_final_L1z.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA8_L1z.tga" 
+Running halffloat2hdr "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA1_final_L0.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA1_L0.hdr" 1024
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1x.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA1_L1x.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1y.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA1_L1y.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1z.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA1_L1z.tga" 
+Running halffloat2hdr "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA3_final_L0.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA3_L0.hdr" 1024
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA3_final_L1x.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA3_L1x.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA3_final_L1y.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA3_L1y.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA3_final_L1z.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA3_L1z.tga" 
+Running halffloat2hdr "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA10_final_L0.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA10_L0.hdr" 1024
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA10_final_L1x.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA10_L1x.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA10_final_L1y.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA10_L1y.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA10_final_L1z.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA10_L1z.tga" 
+Running halffloat2hdr "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LM0_final_L0.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LM0_L0.hdr" 1024
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LM0_final_L1x.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LM0_L1x.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LM0_final_L1y.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LM0_L1y.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LM0_final_L1z.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LM0_L1z.tga" 
+Running halffloat2hdr "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA6_final_L0.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA6_L0.hdr" 1024
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA6_final_L1x.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA6_L1x.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA6_final_L1y.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA6_L1y.tga" 
+Running rgba2tga "C:\Users\ebemo\AppData\Local\Temp\frender/SampleScene_LMA6_final_L1z.lz4" "D:/ebemo/GrivetMischief/GrivetMischiefv2/GrivetMischiefv2/Assets/BakeryLightmaps/SampleScene_LMA6_L1z.tga" 
+Total cache size 267780588
+Total cache size after purge 267780588
+Total cache size 267780588
+Total cache size after purge 267780588
+Total cache size 267780588
+Total cache size after purge 267780588
+Total cache size 267780588
+Total cache size after purge 267780588
+Total cache size 267780588
+Total cache size after purge 267780588
+Total cache size 267780588
+Total cache size after purge 267780588
