@@ -1061,3 +1061,7 @@ Total cache size 267780588
 Total cache size after purge 267780588
 Total cache size 267780588
 Total cache size after purge 267780588
+abort_threads: Failed aborting id: 00000000000077C8, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 00000000000077C8, mono_thread_manage will ignore it
+

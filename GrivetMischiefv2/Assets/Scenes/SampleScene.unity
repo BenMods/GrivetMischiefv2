@@ -560,7 +560,7 @@ GameObject:
   - component: {fileID: 229122349}
   - component: {fileID: 229122348}
   m_Layer: 0
-  m_Name: Cube (3)
+  m_Name: wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -665,7 +665,7 @@ GameObject:
   - component: {fileID: 286331362}
   - component: {fileID: 286331361}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1114,13 +1114,13 @@ MonoBehaviour:
   m_RequiresOpaqueTextureOption: 2
   m_CameraType: 0
   m_Cameras: []
-  m_RendererIndex: -1
+  m_RendererIndex: 0
   m_VolumeLayerMask:
     serializedVersion: 2
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 0
+  m_RenderPostProcessing: 1
   m_Antialiasing: 0
   m_AntialiasingQuality: 2
   m_StopNaN: 0
@@ -1880,7 +1880,7 @@ GameObject:
   - component: {fileID: 694016799}
   - component: {fileID: 694016798}
   m_Layer: 0
-  m_Name: Cube (4)
+  m_Name: Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2970,7 +2970,7 @@ MonoBehaviour:
   renderSettingsRTPVSceneView: 0
   renderSettingsRTPVWidth: 640
   renderSettingsRTPVHeight: 360
-  lastBakeTime: 830
+  lastBakeTime: 999
   enlightenWarningShown: 0
   enlightenWarningShown2: 0
   lightUIDs: 71b26267
@@ -3074,13 +3074,57 @@ MonoBehaviour:
   lightmapHasRNM: 0101010101010101010101
   modifiedAssetPathList: []
   modifiedAssets: []
-  maps: []
+  maps:
+  - {fileID: 2800000, guid: ec1a2c997bdde76498602e089e875aa6, type: 3}
+  - {fileID: 2800000, guid: 118ae3c8e815cbc409eab1a75ca48322, type: 3}
+  - {fileID: 2800000, guid: 2cecb3f5f22c7934a903622bc5bf7718, type: 3}
+  - {fileID: 2800000, guid: c19f5b2dbd975eb4baa2b13d6970cd10, type: 3}
+  - {fileID: 2800000, guid: 5fdc53da7085cfc41b324d9755755260, type: 3}
+  - {fileID: 2800000, guid: 729bfb1a07e2ef94f8cf8000aaf563b4, type: 3}
+  - {fileID: 2800000, guid: 439ae421410cf8b41b49b24ca05c4223, type: 3}
+  - {fileID: 2800000, guid: ff8695aa845c8c144b6add127e210d26, type: 3}
+  - {fileID: 2800000, guid: 774833db2a66b93479be0dfcbef24719, type: 3}
+  - {fileID: 2800000, guid: 7cbd8f16c1ae2774585b4a528f1265d7, type: 3}
+  - {fileID: 2800000, guid: 6f154a028348ecf47ac1309cba4f90f9, type: 3}
   masks: []
   dirMaps: []
-  rnmMaps0: []
-  rnmMaps1: []
-  rnmMaps2: []
-  mapsMode: 
+  rnmMaps0:
+  - {fileID: 2800000, guid: 1722ae82be469394f80b97fbe2d44041, type: 3}
+  - {fileID: 2800000, guid: 6ed43b5c177adbb4ca282d7ddaac7aad, type: 3}
+  - {fileID: 2800000, guid: a89c35114e75461458961fda6d2b65db, type: 3}
+  - {fileID: 2800000, guid: c33bd166e655f3e49a0c3566334a49d2, type: 3}
+  - {fileID: 2800000, guid: abf536bb94ed14049831cb7de2748476, type: 3}
+  - {fileID: 2800000, guid: ed960d13d5d35894dbb8735c3bd50629, type: 3}
+  - {fileID: 2800000, guid: 3bde9adaf553d33469d6250bfb2c1052, type: 3}
+  - {fileID: 2800000, guid: 7e6ed236771b0754b85a944bf661b6fc, type: 3}
+  - {fileID: 2800000, guid: 6e967fef2b85c314da869467ecdcce88, type: 3}
+  - {fileID: 2800000, guid: f5451940d8d06e843876e61b6fba23d7, type: 3}
+  - {fileID: 2800000, guid: 2c0fd503098566848939036b6a5e1034, type: 3}
+  rnmMaps1:
+  - {fileID: 2800000, guid: c8f1d6725e64d6142b10ac83b6f05d19, type: 3}
+  - {fileID: 2800000, guid: 1eae9109f0ad4ae468b8928787a2ea44, type: 3}
+  - {fileID: 2800000, guid: 050e19aba2e453c4a9a894b44df33570, type: 3}
+  - {fileID: 2800000, guid: 230b800ae6a140a42abc695c0196a2a7, type: 3}
+  - {fileID: 2800000, guid: 64ecfc13e4eb6134b91a3e92cf0ee243, type: 3}
+  - {fileID: 2800000, guid: e02fe220d3d7df34db2fb7d6d5585c45, type: 3}
+  - {fileID: 2800000, guid: e04846c9bbeff0e4bacdc0481de2c831, type: 3}
+  - {fileID: 2800000, guid: 7ce867312c8d0f54f9cd25fc3ec1d74b, type: 3}
+  - {fileID: 2800000, guid: 4e8c5519d4841cf449bd06c704aae92a, type: 3}
+  - {fileID: 2800000, guid: fa9856951d10f7247b005a52cc21c48e, type: 3}
+  - {fileID: 2800000, guid: fbe3112bc5314664d964fa9764c4c663, type: 3}
+  rnmMaps2:
+  - {fileID: 2800000, guid: 22476efa7dfbd0b45b102c431ba81ba8, type: 3}
+  - {fileID: 2800000, guid: f104de28db4b8ff4c80c8956aa760120, type: 3}
+  - {fileID: 2800000, guid: 31b07f8d7d2f97547a314ce6c0542a86, type: 3}
+  - {fileID: 2800000, guid: 9f51b061353386f438d0b060074b3df6, type: 3}
+  - {fileID: 2800000, guid: eb5a2a3b02876ea45aa2dc1c0999d8d4, type: 3}
+  - {fileID: 2800000, guid: 8af8d61324b53eb4abd0569cde5eb740, type: 3}
+  - {fileID: 2800000, guid: 5bc10b4965c675a47b93b12ec0ded2dd, type: 3}
+  - {fileID: 2800000, guid: a2d673cc6838048478700758cb1ff342, type: 3}
+  - {fileID: 2800000, guid: 75ed850282b241b489f7cb6c6982edea, type: 3}
+  - {fileID: 2800000, guid: 4b651bfd2afbae44081d06507a5ed9cf, type: 3}
+  - {fileID: 2800000, guid: 79f82dd6e0fb1c7488eb370611b71dd4, type: 3}
+  mapsMode: 0300000003000000030000000300000003000000030000000300000003000000030000000300000003000000
   bakedRenderers:
   - {fileID: 422543268}
   - {fileID: 229122349}
@@ -3134,7 +3178,7 @@ MonoBehaviour:
   bakedScaleOffsetTerrain: []
   assetList: []
   uvOverlapAssetList: 
-  idremap: 00000000010000000200000003000000040000000500000006000000070000000800000009000000
+  idremap: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
   usesRealtimeGI: 0
   emptyDirectionTex: {fileID: 0}
   anyVolumes: 0
@@ -3547,7 +3591,7 @@ GameObject:
   - component: {fileID: 1014801291}
   - component: {fileID: 1014801290}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4203,7 +4247,7 @@ GameObject:
   - component: {fileID: 1049948195}
   - component: {fileID: 1049948194}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4370,6 +4414,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1507636620937791836, guid: 7097ba7ba649e1f41bba232312bdcbd8, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1066086721}
+    - targetCorrespondingSourceObject: {fileID: 1507636620937791836, guid: 7097ba7ba649e1f41bba232312bdcbd8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1066086725}
   m_SourcePrefab: {fileID: 100100000, guid: 7097ba7ba649e1f41bba232312bdcbd8, type: 3}
 --- !u!1 &1066086720 stripped
 GameObject:
@@ -4393,7 +4440,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 50.000004, y: 7.62633, z: 50}
   m_Center: {x: 0, y: -3.813165, z: 0}
@@ -4402,6 +4449,18 @@ MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 1507636620937791839, guid: 7097ba7ba649e1f41bba232312bdcbd8, type: 3}
   m_PrefabInstance: {fileID: 1066086719}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1066086725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1066086720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc8a731c8f9a11847bae5c9e5b14e816, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1103541877
 GameObject:
   m_ObjectHideFlags: 0
@@ -4662,7 +4721,7 @@ GameObject:
   - component: {fileID: 1219003289}
   - component: {fileID: 1219003288}
   m_Layer: 0
-  m_Name: Cube (2)
+  m_Name: wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5014,7 +5073,7 @@ GameObject:
   - component: {fileID: 1496918339}
   - component: {fileID: 1496918338}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22443,7 +22502,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0, z: 0}
+  m_ConnectedAnchor: {x: 0, y: 0.000000059604645, z: 0}
   serializedVersion: 3
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 2
@@ -23504,7 +23563,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0, z: 0}
+  m_ConnectedAnchor: {x: 0, y: 0.000000059604645, z: 0}
   serializedVersion: 3
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 2
@@ -24850,6 +24909,7 @@ GameObject:
   - component: {fileID: 2728907158865171113}
   - component: {fileID: 3905745698768280254}
   - component: {fileID: 9214624598779805648}
+  - component: {fileID: 9214624598779805649}
   m_Layer: 0
   m_Name: CameraOffset
   m_TagString: Player
@@ -26770,6 +26830,7 @@ GameObject:
   - component: {fileID: 8687405275173024557}
   - component: {fileID: 5379001545971953071}
   - component: {fileID: 8308946315787023910}
+  - component: {fileID: 8687405275173024559}
   m_Layer: 0
   m_Name: Rig
   m_TagString: Player
@@ -26863,6 +26924,33 @@ Transform:
   - {fileID: 7149896763826670241}
   m_Father: {fileID: 580992448}
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
+--- !u!54 &8687405275173024559
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8647214264764800706}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!4 &8694324113776650088
 Transform:
   m_ObjectHideFlags: 0
@@ -28120,6 +28208,22 @@ MonoBehaviour:
   leftHandVisual: {fileID: 2218673640170841668}
   rightHandVisual: {fileID: 1663614279373365933}
   visualSmoothing: 1
+--- !u!114 &9214624598779805649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7831824877505732424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f84e5998009d14d44ac4fb773b5d3f75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementEnabled: 1
+  speedMultiplier: 5
+  jumpForce: 5
+  mouseSensitivity: 3
 --- !u!23 &9215055457820100580
 MeshRenderer:
   m_ObjectHideFlags: 0
