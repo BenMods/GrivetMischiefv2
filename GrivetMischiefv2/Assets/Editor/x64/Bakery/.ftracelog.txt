@@ -39781,3 +39781,17 @@ USING FLOAT
 Loading shader addAO.ptx::oxMain...
 2048 2048
 Done
+Init...
+Error (1546): Failed to load OptiX library
+
+sun
+Loading geometry...
+Error (1546): Failed to load OptiX library
+
+Init...
+Error (1537): A supported NVIDIA GPU could not be found
+
+sun
+Loading geometry...
+Error (1281): Invalid value
+
